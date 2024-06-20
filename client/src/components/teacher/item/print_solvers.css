@@ -1,0 +1,11 @@
+@media print {
+    @page {
+        size: A4 portrait;
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+
+    .hidden-print {
+        display: none;
+    }
+}

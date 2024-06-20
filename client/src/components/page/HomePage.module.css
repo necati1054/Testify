@@ -1,0 +1,62 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+.gradientButton {
+    background: hsla(33, 100%, 53%, 1);
+
+    background: linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    background: -moz-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    background: -webkit-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ff930f", endColorstr="#fff95b", GradientType=1);
+}
+
+.gradientButton:hover {
+    background: hsla(33, 100%, 53%, 1);
+
+    background: linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 0%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    background: -moz-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 0%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    background: -webkit-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 0%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ff930f", endColorstr="#fff95b", GradientType=1);
+}
+
+
+.gradientBorder {
+    border-color: hsla(33, 100%, 53%, 1);
+
+    border-color: linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    border-color: -moz-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    border-color: -webkit-linear-gradient(0deg,
+            hsla(33, 100%, 53%, 1) 60%,
+            hsla(58, 100%, 68%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ff930f", endColorstr="#fff95b", GradientType=1);
+}
