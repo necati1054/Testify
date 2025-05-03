@@ -4,6 +4,8 @@
 
 Testify, öğretmenlerin soru ekleyip öğrencilerin bu soruları çözebildiği online bir sınav sistemidir. Açık uçlu sorular, çoktan seçmeli testler ve boşluk doldurma gibi farklı soru tiplerini destekler. Ayrıca OpenAI’nin ChatGPT4o modelini kullanarak açık uçlu soruların değerlendirilmesini sağlayarak öğretmenlerin iş yükünü azaltır.
 
+🌐 **Demo:** [https://testify.necatiarman.dev/](https://testify.necatiarman.dev/)
+
 ## 🛠️ Kullanılan Teknolojiler
 
 - **React 18.2.0**
